@@ -18,11 +18,12 @@ class Settings(BaseSettings):
     app_version: str = "1.0.0"
     debug: bool = False
 
-    # ── CORS ─────────────────────────────────────────────
+     # ── CORS ─────────────────────────────────────────────
     allowed_origins: list[str] = [
-        "http://localhost:5173",
-        "http://localhost:3000",
-    ]
+    "http://localhost:5173",
+    "https://writeright.vercel.app",      # preview deploys
+    "https://shikanja-malik-writeright-api.hf.space",     # HF preview iframe
+]
 
     # ── Model ─────────────────────────────────────────────
     # vennify/t5-base-grammar-correction is a lightweight T5
