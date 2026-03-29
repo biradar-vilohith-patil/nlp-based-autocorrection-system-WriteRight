@@ -1,0 +1,24 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.egg-info/
+dist/
+.pytest_cache/
+
+# HuggingFace cache (too large for GitHub)
+~/.cache/huggingface/
+
+# Node
+node_modules/
+.env
+.env.local
+frontend/dist/
+
+# Editors
+.DS_Store
+.vscode/
+.idea/

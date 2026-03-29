@@ -1,0 +1,142 @@
+{
+  "_comment": "Each key is a word; value is its homophone group. Used by HomophoneResolver.",
+
+  "their": ["their", "there", "they're"],
+  "there": ["their", "there", "they're"],
+  "they're": ["their", "there", "they're"],
+
+  "your": ["your", "you're"],
+  "you're": ["your", "you're"],
+
+  "its": ["its", "it's"],
+  "it's": ["its", "it's"],
+
+  "to": ["to", "too", "two"],
+  "too": ["to", "too", "two"],
+  "two": ["to", "too", "two"],
+
+  "then": ["then", "than"],
+  "than": ["then", "than"],
+
+  "affect": ["affect", "effect"],
+  "effect": ["affect", "effect"],
+
+  "lose": ["lose", "loose"],
+  "loose": ["lose", "loose"],
+
+  "accept": ["accept", "except"],
+  "except": ["accept", "except"],
+
+  "weather": ["weather", "whether"],
+  "whether": ["weather", "whether"],
+
+  "principal": ["principal", "principle"],
+  "principle": ["principal", "principle"],
+
+  "complement": ["complement", "compliment"],
+  "compliment": ["complement", "compliment"],
+
+  "stationary": ["stationary", "stationery"],
+  "stationery": ["stationary", "stationery"],
+
+  "bare": ["bare", "bear"],
+  "bear": ["bare", "bear"],
+
+  "pore": ["pore", "pour", "poor"],
+  "pour": ["pore", "pour", "poor"],
+  "poor": ["pore", "pour", "poor"],
+
+  "brake": ["brake", "break"],
+  "break": ["brake", "break"],
+
+  "capital": ["capital", "capitol"],
+  "capitol": ["capital", "capitol"],
+
+  "cite": ["cite", "sight", "site"],
+  "sight": ["cite", "sight", "site"],
+  "site": ["cite", "sight", "site"],
+
+  "coarse": ["coarse", "course"],
+  "course": ["coarse", "course"],
+
+  "council": ["council", "counsel"],
+  "counsel": ["council", "counsel"],
+
+  "desert": ["desert", "dessert"],
+  "dessert": ["desert", "dessert"],
+
+  "discreet": ["discreet", "discrete"],
+  "discrete": ["discreet", "discrete"],
+
+  "elicit": ["elicit", "illicit"],
+  "illicit": ["elicit", "illicit"],
+
+  "eminent": ["eminent", "imminent"],
+  "imminent": ["eminent", "imminent"],
+
+  "flair": ["flair", "flare"],
+  "flare": ["flair", "flare"],
+
+  "forward": ["forward", "foreword"],
+  "foreword": ["forward", "foreword"],
+
+  "formally": ["formally", "formerly"],
+  "formerly": ["formally", "formerly"],
+
+  "gorilla": ["gorilla", "guerrilla"],
+  "guerrilla": ["gorilla", "guerrilla"],
+
+  "led": ["led", "lead"],
+  "lead": ["led", "lead"],
+
+  "lightening": ["lightening", "lightning"],
+  "lightning": ["lightening", "lightning"],
+
+  "moral": ["moral", "morale"],
+  "morale": ["moral", "morale"],
+
+  "passed": ["passed", "past"],
+  "past": ["passed", "past"],
+
+  "peace": ["peace", "piece"],
+  "piece": ["peace", "piece"],
+
+  "peak": ["peak", "peek", "pique"],
+  "peek": ["peak", "peek", "pique"],
+  "pique": ["peak", "peek", "pique"],
+
+  "plain": ["plain", "plane"],
+  "plane": ["plain", "plane"],
+
+  "pray": ["pray", "prey"],
+  "prey": ["pray", "prey"],
+
+  "right": ["right", "write", "rite"],
+  "write": ["right", "write", "rite"],
+  "rite": ["right", "write", "rite"],
+
+  "role": ["role", "roll"],
+  "roll": ["role", "roll"],
+
+  "scene": ["scene", "seen"],
+  "seen": ["scene", "seen"],
+
+  "steak": ["steak", "stake"],
+  "stake": ["steak", "stake"],
+
+  "suite": ["suite", "sweet"],
+  "sweet": ["suite", "sweet"],
+
+  "vain": ["vain", "vane", "vein"],
+  "vane": ["vain", "vane", "vein"],
+  "vein": ["vain", "vane", "vein"],
+
+  "waste": ["waste", "waist"],
+  "waist": ["waste", "waist"],
+
+  "who's": ["who's", "whose"],
+  "whose": ["who's", "whose"],
+
+  "which": ["which", "witch"],
+  "witch": ["which", "witch"]
+}
