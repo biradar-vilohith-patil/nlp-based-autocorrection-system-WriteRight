@@ -27,7 +27,7 @@ class Settings(BaseSettings):
     # ── Model ─────────────────────────────────────────────
     # vennify/t5-base-grammar-correction is a lightweight T5
     # fine-tuned specifically for grammar error correction.
-    model_name: str = "vennify/t5-base-grammar-correction"
+    model_name: str = "prithivida/grammar_error_correcter_v1"
     model_prefix: str = "grammar: "
     max_input_length: int = 512
     max_output_length: int = 512
