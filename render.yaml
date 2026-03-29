@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: writeright-api
+    runtime: python
+    rootDir: backend
+    buildCommand: "pip install -r requirements.txt && python -m spacy download en_core_web_sm"
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: MODEL_NAME
+        value: vennify/t5-base-grammar-correction
+      - key: MAX_INPUT_LENGTH
+        value: "512"
+      - key: SPELL_DICT_PATH
+        value: app/resources/dictionary.txt
+      - key: HOMOPHONE_PATH
+        value: app/resources/homophones.json
+      - key: ALLOWED_ORIGINS
+        value: "https://writeright.vercel.app"
+    plan: free
+    region: oregon
