@@ -1,3 +1,10 @@
+---
+title: WriteRight NLP Backend
+sdk: docker
+app_port: 7860
+---
+
+
 # ✦ WriteRight — NLP Auto-Corrector
 
 > Context-aware spelling & grammar correction powered by spaCy, SymSpell, and a T5 transformer.

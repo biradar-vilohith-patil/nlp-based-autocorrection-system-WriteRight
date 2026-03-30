@@ -12,7 +12,6 @@ symspellpy==6.7.7
 
 # Transformers / Grammar
 transformers==4.41.2
-torch==2.3.1
 sentencepiece==0.2.0
 protobuf==5.27.2
 
